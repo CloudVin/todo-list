@@ -1,0 +1,44 @@
+{
+  "id": "2235583",
+  "name": "常用图标库",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "772981",
+      "name": "delete",
+      "font_class": "delete",
+      "unicode": "e65f",
+      "unicode_decimal": 58975
+    },
+    {
+      "icon_id": "18077264",
+      "name": "apps",
+      "font_class": "apps",
+      "unicode": "e628",
+      "unicode_decimal": 58920
+    },
+    {
+      "icon_id": "18135250",
+      "name": "yy-shoppingcart-O",
+      "font_class": "tubiaozhizuomoban_gouwuche",
+      "unicode": "e606",
+      "unicode_decimal": 58886
+    },
+    {
+      "icon_id": "18174942",
+      "name": "首页",
+      "font_class": "shouye",
+      "unicode": "e601",
+      "unicode_decimal": 58881
+    },
+    {
+      "icon_id": "18174947",
+      "name": "我的",
+      "font_class": "wode",
+      "unicode": "e602",
+      "unicode_decimal": 58882
+    }
+  ]
+}
