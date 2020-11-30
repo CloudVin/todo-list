@@ -38,6 +38,7 @@ export default {
     align-items: center;
 
   }
+  /* 添加完成横线 */
   .todolist-item.done label{
     text-decoration: line-through;
     color: #c9c9c9;

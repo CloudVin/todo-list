@@ -2,7 +2,7 @@
  
 <div class="container">
        <h1>欢迎使用cloud TodoList</h1>
-       <todo-app></todo-app>
+       <todo-add></todo-add>
        <todo-filter></todo-filter>
        <todo-list></todo-list>
      
@@ -10,29 +10,20 @@
 </template>
 
 <script>
-import TodoApp from './TodoAdd'
+import TodoAdd from './TodoAdd'
 import TodoFilter from './TodoFilters'
 import TodoList from './TodoList'
 
 export default {
   
 name:'TodoCon',
-data(){
-  return {
-    isChecked:''
-  }
-},
 components:{
-    TodoApp,
+    TodoAdd,
     TodoFilter,
     TodoList
-},
-methods:{
-  changeStatus(item){
-      this.isChecked=item;
-  }
 }
 }
+
 </script>
 
 <style>

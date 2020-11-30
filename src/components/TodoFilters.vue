@@ -38,6 +38,7 @@ export default {
       ...mapState(['selected'])
     },
     methods:{
+      // 监听点击tab的切换，点击了谁就将key传给changeTabs，然后显示对应的列表
       choose(key){
         this.$store.commit('changeTabs',key)
       }

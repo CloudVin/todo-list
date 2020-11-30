@@ -33,13 +33,14 @@ computed:{
 methods:{
   // 删除todo
 removeItem(id){
-       console.log(id);
+      //  console.log(id);
        this.$store.commit('removeTodoItem',id)
      },
 
-    //  点击tab切换
+    //  监听todo列表的选中状态，传入id来判断对应的项
      checkedChange($event,id){
-       console.log($event.target.checked);
+      //  console.log($event.target.checked);
+      // 当需要传过个参数时，通过对象形式
         const params = {
           id:id,
           status:$event.target.checked

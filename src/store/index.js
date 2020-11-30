@@ -11,6 +11,7 @@ export default new Vuex.Store({
 
         ],
         inputValue: "",
+        // 
         selected: 'all'
     },
     mutations: {
@@ -40,27 +41,29 @@ export default new Vuex.Store({
                 // 从第i个位置起删除就是删除自己。
             state.List.splice(i, 1)
         },
-        // 改变状态
+        // 改变点击的todo项的完成或未完成的状态，
         changeStatus(state, params) {
-            console.log(params.id);
+            // console.log(params.id);
+            // 通过id来选择对应的项
             const i = state.List.findIndex(x => x.id == params.id)
-            console.log('i', i);
+                // console.log('i', i);
             if (i != -1) {
-                console.log("params.status", params.status);
+                // console.log("params.status", params.status);
                 state.List[i].done = params.status
-                console.log("state.List[i].done", state.List[i].done);
+                    // console.log("state.List[i].done", state.List[i].done);
             }
             // console.log(123);
         },
-        // 切换tab
+        // 监听tabs的变化，修改selected的值
         changeTabs(state, key) {
-            console.log(state.selected);
+            // console.log(state.selected);
             state.selected = key;
         }
 
 
     },
     getters: {
+        //根据tabs的key来过滤显示符合的列表
         infoList(state) {
             if (state.selected == 'all') {
                 return state.List
