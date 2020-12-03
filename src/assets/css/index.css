@@ -3,7 +3,7 @@
         width: 100vw;
         /* 这里设置为min-height可以防止滚动后面的背景变成白色 */
         min-height: 100vh;
-        padding: 5vh 0;
+        padding: 8vh 0;
         display: grid;
         align-items: start;
         justify-items: center;
@@ -11,10 +11,10 @@
     }
     .container {
         width: 90vw;
-        height: 70vh;
-        min-height: 540px;
+        height: 90vh;
+        /* min-height: 540px; */
         position: relative;
-        padding: 48px 28px;
+        padding: 10px 20px;
         border-radius: 24px;
         background: rgb(245, 246, 252);
         box-shadow: 0px 0px 24px rgba(0, 0, 0, 0.15);

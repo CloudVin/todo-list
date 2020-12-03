@@ -59,7 +59,8 @@
     row-gap: 14px;
     overflow-x: hidden;
     overflow-y: scroll;
-    max-height: 260px;
+    max-height: 320px;
+  
 
   }
 

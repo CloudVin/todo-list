@@ -29,14 +29,13 @@
   /* 内容区 */
   .container {
     width: 60vw;
-    height: 70vh;
-    min-height: 540px;
+    max-height: 600px;
     position: relative;
     padding: 48px 28px;
     border-radius: 24px;
     background: rgb(245, 246, 252);
     box-shadow: 0px 0px 24px rgba(0, 0, 0, 0.15);
-    padding-bottom: 20px;
+    /* padding-bottom: 20px;  */
 
   }
 
